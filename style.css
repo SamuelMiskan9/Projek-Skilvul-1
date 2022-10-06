@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@700&display=swap");
 
 * {
   margin: 0;
@@ -8,7 +9,7 @@
 
 body,
 html {
-  font-family: "Tinos", serif;
+  font-family: "Playfair Display SC", serif;
   scroll-behavior: smooth;
 }
 
@@ -219,6 +220,15 @@ main p {
   background-color: #1b2430;
   color: white;
   border-radius: 1em;
+  box-shadow: 10px 10px 28px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 28px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 28px 0px rgba(0, 0, 0, 0.75);
+  outline: 2px solid white;
+}
+
+.projects:hover {
+  outline: 2px solid red;
+  transition: 0.4s;
 }
 
 .img-projects {
@@ -257,9 +267,9 @@ main p {
 .contact-main {
   margin: 20vh auto;
   display: flex;
-  flex-direction:row;
+  flex-direction: row;
   gap: 3em;
-  justify-content: center; 
+  justify-content: center;
 }
 
 .contact-logo {
@@ -271,7 +281,6 @@ main p {
   transform: scale(1.1);
   transition: 0.5s;
 }
-
 
 .contact {
   margin: 10px auto;
@@ -319,5 +328,15 @@ main p {
     padding: 2em;
   }
 }
-  
 
+.blog h1 {
+  font-size: 54px;
+  text-transform: uppercase;
+  color: black;
+}
+
+.blog {
+  margin: 10px auto;
+  padding: 10em;
+  color: red;
+}
