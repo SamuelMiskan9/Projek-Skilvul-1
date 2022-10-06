@@ -227,7 +227,7 @@ main p {
 }
 
 .projects:hover {
-  outline: 2px solid red;
+  outline: 3px solid #083d77;
   transition: 0.4s;
 }
 
@@ -299,36 +299,6 @@ main p {
   color: red;
 }
 
-@media screen and (max-width: 768px) {
-  .about-main {
-    flex-direction: column;
-    width: 100%;
-    padding: 2em;
-  }
-
-  .about-left {
-    width: 100%;
-    font-size: 18px;
-    text-align: center;
-  }
-
-  .about-right {
-    display: none;
-  }
-
-  .port-main {
-    flex-direction: column;
-    width: 100%;
-    padding: 2em;
-  }
-
-  .contact-main {
-    flex-direction: column;
-    width: 100%;
-    padding: 2em;
-  }
-}
-
 .blog h1 {
   font-size: 54px;
   text-transform: uppercase;
@@ -339,4 +309,60 @@ main p {
   margin: 10px auto;
   padding: 10em;
   color: red;
+}
+
+@media screen and (max-width: 768px) {
+  .about-main {
+    flex-direction: column;
+    width: 100%;
+    padding: 2em;
+  }
+
+  .about-left {
+    width: 100%;
+    font-size: 18px;
+  }
+
+  .about-right {
+    display: none;
+  }
+
+  .contact-main {
+    flex-direction: column;
+  }
+
+  .contact-logo {
+    width: 4em;
+    height: auto;
+  }
+}
+
+.blog {
+  padding: 10em;
+}
+
+.blog-main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2em;
+  align-items: center;
+  margin-top: 10vh;
+  flex-wrap: wrap;
+}
+
+.blog-style {
+  width: 20em;
+  background-color: #1b2430;
+  color: white;
+  border-radius: 1em;
+  box-shadow: 11px 13px 24px 7px rgba(19, 19, 150, 0.75);
+  -webkit-box-shadow: 11px 13px 24px 7px rgba(19, 19, 150, 0.75);
+  -moz-box-shadow: 11px 13px 24px 7px rgba(19, 19, 150, 0.75);
+  outline: 2px solid white;
+}
+
+.blog-style:hover {
+  outline: 3px solid #fcab10;
+  transition: 0.4s;
 }
