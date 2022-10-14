@@ -11,6 +11,11 @@ body,
 html {
   font-family: "Playfair Display SC", serif;
   scroll-behavior: smooth;
+  background: url("img/body2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
 }
 
 header {
@@ -28,7 +33,7 @@ ul {
 ul li a {
   padding: 0 20px;
   text-decoration: none;
-  color: #3a3a3a;
+  color: #290d0d;
   display: inline-block;
 }
 
@@ -439,3 +444,11 @@ main p {
     margin: 1em auto;
   }
 }
+@media screen {
+  
+}
+
+@media screen and (max-width: 768px) {
+  
+}
+  
