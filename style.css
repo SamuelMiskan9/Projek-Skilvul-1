@@ -11,11 +11,18 @@ body,
 html {
   font-family: "Playfair Display SC", serif;
   scroll-behavior: smooth;
-  background: url("img/body2.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+}
 
+video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
 }
 
 header {
@@ -33,7 +40,7 @@ ul {
 ul li a {
   padding: 0 20px;
   text-decoration: none;
-  color: #290d0d;
+  color: #a16868;
   display: inline-block;
 }
 
@@ -65,6 +72,10 @@ main {
 
 .content-left {
   width: 30%;
+}
+
+.content-left h1 {
+  color: white;
 }
 
 main h1 {
@@ -110,8 +121,8 @@ main p {
 .gg {
   text-decoration: none !important;
   padding: 15px 30px;
-  background-color: #c4c4f7;
-  color: #fff;
+  background-color: #2f323a;
+  color: white;
   outline: none;
   border: none;
   font-weight: 700;
@@ -139,6 +150,7 @@ main p {
 
 .pro {
   font-size: 18px !important;
+  color: white;
 }
 
 .about {
@@ -379,6 +391,16 @@ main p {
   }
 }
 
+.about h1 {
+  color: white;
+}
+.portfolio h2 {
+  color: white;
+}
+.blog h1 {
+  color: white;
+}
+
 @media screen and (max-width: 480px) {
   .about-main {
     flex-direction: column;
@@ -445,10 +467,7 @@ main p {
   }
 }
 @media screen {
-  
 }
 
 @media screen and (max-width: 768px) {
-  
 }
-  
